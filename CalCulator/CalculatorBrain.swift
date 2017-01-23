@@ -24,6 +24,7 @@ class CalculatorBrain
         "e": Operation.Constant(M_E), //M_E,
         "√": Operation.UnaryOperation(sqrt),//sqrt,
         "cos" : Operation.UnaryOperation(cos),
+        "c" : Operation.Clear,
         "×": Operation.BinaryOperation({ $0 * $1 }),
         "÷": Operation.BinaryOperation({ $0 / $1 }),
         "+": Operation.BinaryOperation({ $0 + $1 }),
@@ -38,6 +39,7 @@ class CalculatorBrain
         case UnaryOperation((Double) -> Double)
         case BinaryOperation((Double,Double) -> Double)
         case Equals
+        case Clear
     }
     
     func performOperations(symbol: String) {
@@ -51,8 +53,15 @@ class CalculatorBrain
                 executePendingOperation()
                 pending = PendingBinaryOperationInfo(binaryFunction: function, firstOperand: accmulator)
             case .Equals: executePendingOperation()
+            case .Clear: clearDisplay()
             }
         }
+    }
+    
+    private func clearDisplay(){
+        
+        accmulator = 0.0
+    
     }
     
     private func executePendingOperation(){

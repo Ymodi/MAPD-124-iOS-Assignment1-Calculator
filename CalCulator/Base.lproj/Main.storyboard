@@ -41,7 +41,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="108"/>
                                                         <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="44"/>
-                                                        <state key="normal" title="cos">
+                                                        <state key="normal" title="c">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
