@@ -4,7 +4,11 @@
 //
 //  Created by Yesha Modi on 2017-01-22.
 //  Copyright © 2017 Yesha Modi-300895482. All rights reserved.
-//
+//  Name: Yesha Modi
+//  Student no: 300895482
+//  Assignment1 - Basic Calculator App
+//  Note: Main logic of the application (Model of the application)
+//  Usa of switch, Dictonary, struct, enum
 
 import Foundation
 

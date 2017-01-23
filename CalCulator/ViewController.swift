@@ -2,8 +2,11 @@
 //  ViewController.swift
 //  CalCulator
 //
-//  Created by Yesha Modi on 2017-01-20.
+//  Created by Yesha Modi on 2017-01-18.
 //  Copyright © 2017 Yesha Modi-300895482. All rights reserved.
+// Name: Yesha Modi
+// Student no: 300895482
+// Assignment1 - Basic Calculator App
 //
 
 import UIKit
