@@ -23,7 +23,7 @@ class CalculatorBrain
         "∏": Operation.Constant(M_PI), //M_PI
         "e": Operation.Constant(M_E), //M_E,
         "√": Operation.UnaryOperation(sqrt),//sqrt,
-        "cos": Operation.UnaryOperation(cos),  //cos
+        "cos" : Operation.UnaryOperation(cos),
         "×": Operation.BinaryOperation({ $0 * $1 }),
         "÷": Operation.BinaryOperation({ $0 / $1 }),
         "+": Operation.BinaryOperation({ $0 + $1 }),
